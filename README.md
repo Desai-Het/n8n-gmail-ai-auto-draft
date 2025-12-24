@@ -6,18 +6,18 @@ An **n8n-powered AI email assistant** that automatically categorizes incoming Gm
 
 ## ✨ Features
 
-- 📥 Triggers on **new incoming Gmail messages**
-- 🏷️ **Automatically classifies emails** into predefined labels:
+-  Triggers on **new incoming Gmail messages**
+-  **Automatically classifies emails** into predefined labels:
   - `Doubts`
   - `Sponsorship`
   - `Courses`
-- 🧠 Uses an **AI Agent (OpenAI)** to understand email context
-- 📝 **Generates a draft reply** with:
+-  Uses an **AI Agent (OpenAI)** to understand email context
+-  **Generates a draft reply** with:
   - Proper subject
   - Clean, readable **HTML email body**
-- 🛑 **Does NOT auto-send emails**
+-  **Does NOT auto-send emails**
   - User reviews and sends manually from Gmail
-- 🔄 Preserves the original **email thread**
+-  Preserves the original **email thread**
 
 ---
 
@@ -62,10 +62,10 @@ This workflow only **creates a draft**, ensuring:
 
 ## 🔐 Security Notes
 
-- ❌ Do **NOT** commit real API keys
-- ❌ Do **NOT** commit OAuth tokens
-- ✅ Credentials are stored securely inside **n8n**
-- ✅ The provided JSON file is **safe to share once sanitized**
+-  Do **NOT** commit real API keys
+-  Do **NOT** commit OAuth tokens
+-  Credentials are stored securely inside **n8n**
+-  The provided JSON file is **safe to share once sanitized**
 
 ---
 
