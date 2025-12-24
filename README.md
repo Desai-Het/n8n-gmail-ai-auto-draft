@@ -8,15 +8,15 @@ An **n8n-powered AI email assistant** that automatically categorizes incoming Gm
 
 -  Triggers on **new incoming Gmail messages**
 -  **Automatically classifies emails** into predefined labels:
-  - `Doubts`
-  - `Sponsorship`
-  - `Courses`
+    `Doubts`
+    `Sponsorship`
+    `Courses`
 -  Uses an **AI Agent (OpenAI)** to understand email context
 -  **Generates a draft reply** with:
-  - Proper subject
-  - Clean, readable **HTML email body**
+    Proper subject
+    Clean, readable **HTML email body**
 -  **Does NOT auto-send emails**
-  - User reviews and sends manually from Gmail
+    User reviews and sends manually from Gmail
 -  Preserves the original **email thread**
 
 ---
@@ -36,10 +36,10 @@ An **n8n-powered AI email assistant** that automatically categorizes incoming Gm
 
 4. **Structured Output Parser**  
    Ensures clean JSON output:
-   - `label`
-   - `label_id`
-   - `subject`
-   - `body`
+     `label`
+     `label_id`
+     `subject`
+     `body`
 
 5. **Add Label**  
    Applies the selected Gmail label
@@ -87,13 +87,13 @@ This workflow only **creates a draft**, ensuring:
 ## 🧪 Recommended Testing
 
 - Send different types of emails:
-  - Questions / doubts
-  - Business inquiries
-  - Course-related messages
+  Questions / doubts
+  Business inquiries
+  Course-related messages
 - Verify:
-  - Correct label assignment
-  - Draft content quality
-  - Proper subject generation
+  Correct label assignment
+  Draft content quality
+  Proper subject generation
 
 ---
 
